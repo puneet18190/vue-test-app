@@ -5,11 +5,17 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= stylesheet_pack_tag 'home_vue', media: 'all' %>
+    <%= javascript_pack_tag 'home_vue' %>
   </head>
 
   <body>
+    <div id='hello'>
+      <app></app>
+    </div>
     <%= yield %>
   </body>
 </html>
