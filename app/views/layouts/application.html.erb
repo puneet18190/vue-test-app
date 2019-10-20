@@ -8,14 +8,12 @@
     <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    <%= stylesheet_pack_tag 'home_vue', media: 'all' %>
-    <%= javascript_pack_tag 'home_vue' %>
+    <%#= stylesheet_pack_tag 'home_vue', media: 'all' %>
+    <%= javascript_pack_tag 'application' %>
   </head>
 
   <body>
-    <div id='hello'>
-      <app></app>
-    </div>
     <%= yield %>
+    <%= yield :page_scripts %>
   </body>
 </html>

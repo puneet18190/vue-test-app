@@ -42,7 +42,7 @@ import App from '../components/app.vue'
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
-    el: '#hello',
+    el: '#vue',
     components: { App }
   })
 })
