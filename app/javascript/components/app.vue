@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <p>{{ message }}</p>
-    <div class="bg-purple">
-      Test
-    </div>
     <div class=" container mx-auto py-10">
       <div class="border m-6 rounded-lg  bg-white mx-auto max-w-sm shadow-lg rounded-lg overflow-hidden">
         <div class="sm:flex sm:items-center px-6 py-4">
